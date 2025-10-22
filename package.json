@@ -1,0 +1,25 @@
+{
+  "name": "stage1",
+  "version": "1.0.0",
+  "description": "RESTful API endpoint that returns your profile information along with a dynamic cat fact fetched from an external API. This task validates your ability to consume third-party APIs, format JSON responses, and return dynamic data.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dunascode-prog/hngProfileTask1.git"
+  },
+  "author": "seyitanOmodara",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dunascode-prog/hngProfileTask1/issues"
+  },
+  "homepage": "https://github.com/dunascode-prog/hngProfileTask1#readme",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "express-rate-limit": "^8.1.0",
+    "morgan": "^1.10.1"
+  }
+}
