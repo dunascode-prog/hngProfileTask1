@@ -31,6 +31,6 @@ app.use("/me", async (req, res) => {
     fact: data.fact,
   });
 });
-app.listen(process.env.PORT, () => {
+app.listen(process.env.PORT || 3000, () => {
   console.log("Server is running on port 3000....");
 });
