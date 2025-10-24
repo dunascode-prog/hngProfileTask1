@@ -12,7 +12,7 @@ app.use(limiter);
 
 app.use(morgan("dev"));
 dotenv.config(".env");
-app.use("/me", async (req, res) => {
+app.get("/me", async (req, res) => {
   const response = await fetch(process.env.API);
   const data = await response.json();
   if (!response.ok) {
